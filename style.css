@@ -1,0 +1,51 @@
+#myAudio {
+
+    margin-top: 100px;
+}
+
+#customAudio{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0px 20px 20px 5px rgba(132, 132, 132, 0.3);
+}
+
+/* ul li{
+
+    display: inline-block;
+    font-size: 15px;
+    color:#464444d4;
+    margin: 0 5px 0 10px;
+    cursor: pointer;
+    transition: all .4s ease;    
+} */
+
+#playlist {
+
+
+    background-color: aqua;
+    margin-top: 40px;
+    width: 30%;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgb(243, 235, 235);
+    box-shadow: 0px 20px 20px 5px rgba(132, 132, 132, 0.3);
+    height: 150px;
+    
+}
+
+#playlist div {
+
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 2px;
+}
+

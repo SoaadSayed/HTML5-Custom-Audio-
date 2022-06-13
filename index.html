@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="modernizr-2.6.2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id = "myAudio" align = "center">
+
+        <img src = "1.jpg" alt = "Pic" width = "150px" height = "150px" id = "img">
+        <br>
+
+        <audio id = "audio" ontimeupdate = "Time()">
+
+            <source src = "1.mp3">
+    
+        </audio>
+
+        <div id = "customAudio">
+
+            <input type = "image" src = "icons8-play-24.png" onclick ="Play()">
+            <input type = "image" src = "icons8-pause-24.png" onclick = "Pause()">
+            <input type = "image" src = "icons8-stop-24.png" onclick = "Stop()">
+
+            <input id = "main" type = "range" value = "0" onchange = "Run(this)" min = "0">
+
+            <input type = "image" src = "icons8-low-volume-30.png">
+            <input type = "range" id = "volume" value = "5" max = "10" onchange = "Volume(this)">
+            
+        </div>
+
+
+
+        <div id = "playlist">
+
+            
+            <div onclick = "ChangeTrack(this.id)" id = "1"> Babar Song </div> 
+            <hr>
+
+            <div onclick = "ChangeTrack(this.id)" id = "2"> Qnas song </div>
+            <hr>
+
+            <div onclick = "ChangeTrack(this.id)" id = "3"> Remi Song </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
